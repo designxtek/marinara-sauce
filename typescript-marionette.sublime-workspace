@@ -31,7 +31,7 @@
 			"file": "site/index.html",
 			"settings":
 			{
-				"buffer_size": 1790,
+				"buffer_size": 1841,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "site/scripts/myapp.ts",
 			"settings":
 			{
-				"buffer_size": 829,
+				"buffer_size": 836,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "site/scripts/layouts/projectlayout.ts",
 			"settings":
 			{
-				"buffer_size": 1026,
+				"buffer_size": 1029,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "site/scripts/layouts/aboutlayout.ts",
 			"settings":
 			{
-				"buffer_size": 632,
+				"buffer_size": 628,
 				"line_ending": "Unix"
 			}
 		},
@@ -413,15 +413,15 @@
 					"file": "site/index.html",
 					"settings":
 					{
-						"buffer_size": 1790,
+						"buffer_size": 1841,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								540,
-								540
+								0,
+								0
 							]
 						],
 						"settings":
@@ -440,15 +440,15 @@
 					"file": "site/scripts/myapp.ts",
 					"settings":
 					{
-						"buffer_size": 829,
+						"buffer_size": 836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								605,
-								605
+								0,
+								0
 							]
 						],
 						"settings":
@@ -500,7 +500,7 @@
 					"file": "site/scripts/layouts/projectlayout.ts",
 					"settings":
 					{
-						"buffer_size": 1026,
+						"buffer_size": 1029,
 						"regions":
 						{
 						},
@@ -527,15 +527,15 @@
 					"file": "site/scripts/layouts/aboutlayout.ts",
 					"settings":
 					{
-						"buffer_size": 632,
+						"buffer_size": 628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								89,
-								89
+								0,
+								0
 							]
 						],
 						"settings":

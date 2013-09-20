@@ -13,7 +13,8 @@ module bs.routers {
 			options.appRoutes = {
 				"":"analysisPage",
 		        "about/": "aboutPage",
-		        "analysis/": "analysisPage"
+		        "analysis/": "analysisPage",
+		        "analysis/:page(/)": "analysisPage"
 			}
 			
 			super(options);

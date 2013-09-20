@@ -20,7 +20,8 @@ module bs.project {
 			projectView.showAbout();
 		},
 
-		analysisPage: function() {
+		analysisPage: function(page) {
+			console.log('analysis page ' + page);
 			var projectView = bs.layouts.masterLayout.regions.main.currentView;
 			projectView.showAnalysis();
 		},

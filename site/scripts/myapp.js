@@ -18,7 +18,8 @@ var bs;
                 options.appRoutes = {
                     "": "analysisPage",
                     "about/": "aboutPage",
-                    "analysis/": "analysisPage"
+                    "analysis/": "analysisPage",
+                    "analysis/:page(/)": "analysisPage"
                 };
 
                 _super.call(this, options);
@@ -255,7 +256,8 @@ var bs;
                 var projectView = bs.layouts.masterLayout.regions.main.currentView;
                 projectView.showAbout();
             },
-            analysisPage: function () {
+            analysisPage: function (page) {
+                console.log('analysis page ' + page);
                 var projectView = bs.layouts.masterLayout.regions.main.currentView;
                 projectView.showAnalysis();
             },
