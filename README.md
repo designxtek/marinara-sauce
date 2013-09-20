@@ -1,8 +1,13 @@
-typescript-marionette
+Marinara Sauce
 =====================
+
+Marionette + Typescript = Marinara Sauce
 
 This is a barebone example using Marionette's router, layout and regions in TypeScript. 
 The intention of this example is to set a starting point to easily create highly scalable single page applications.
+
+This example is a work in progress. For now it is a good reference on building new 
+applications using Marinara Sauce.
 
 ### Resources
 ##### [Backbone.Marionette] (https://github.com/marionettejs/backbone.marionette) 
