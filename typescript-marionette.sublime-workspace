@@ -1,0 +1,775 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"collabo",
+				"collaboratorEmail"
+			],
+			[
+				"alertpers",
+				"alertPersonalMessageValue"
+			],
+			[
+				"alert",
+				"alertPersonalMessage"
+			],
+			[
+				"shareprojectco",
+				"ShareProjectCollaboratorCollection"
+			],
+			[
+				"inviteus",
+				"inviteUser2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "site/index.html",
+			"settings":
+			{
+				"buffer_size": 1790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/scripts/myapp.ts",
+			"settings":
+			{
+				"buffer_size": 829,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/scripts/projectcontroller.ts",
+			"settings":
+			{
+				"buffer_size": 1198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/scripts/layouts/projectlayout.ts",
+			"settings":
+			{
+				"buffer_size": 1026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/scripts/layouts/aboutlayout.ts",
+			"settings":
+			{
+				"buffer_size": 632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/scripts/layouts/masterlayout.ts",
+			"settings":
+			{
+				"buffer_size": 998,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LESS-basestrap-Dang/LESS-basestrap-Dang.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"pagek",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 127.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/masterlayout.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/views/aboutitemview.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/projectrouter.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/projectlayout.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/lib/backbone/backbone.d.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/analysislayout.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/aboutitemview.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/aboutlayout.ts",
+		"/Users/dtran1/Desktop/Repositories/typescript-marionette/site/scripts/myapp.js",
+		"/Users/dtran1/Desktop/Marionette Test/site/scripts/lib/backbone/backbone.d.ts",
+		"/Users/dtran1/Desktop/Marionette Test/server.js",
+		"/Users/dtran1/Desktop/Marionette Test/site/scripts/lib/marionette/marionette.d.ts",
+		"/Users/dtran1/Desktop/Marionette Test/site/scripts/appinit.ts",
+		"/Users/dtran1/Desktop/Marionette Test/scripts/appinit.ts",
+		"/Users/dtran1/Desktop/Marionette Test/index.html",
+		"/Users/dtran1/Desktop/Marionette Test/package.json",
+		"/Users/dtran1/Desktop/TestServer/server.js",
+		"/Users/dtran1/Desktop/Marionette Test/appinit.ts",
+		"/Users/dtran1/Desktop/TS_Marionette_Test/appinit.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/Project.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/AppInit/ProjectSectionInit.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/User.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/IOwnable.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/Model.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views/View.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Scripts/app/collaborator.js",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Templates/Html/Templates.html",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections/UserCollection.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections/ShareProjectCollaboratorCollection.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views/Dialogs/ShareProjectDialog.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/ShareProjectCollaboratorModel.ts",
+		"/Volumes/C/Projects/basespace/src/Migrations/migrate.local.bat",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views/Dialogs/EditProjectDialog.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections/FileCollection.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections/Collection.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections/SampleCollection.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections/ShareProjectCollection.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/ShareProjectModel.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Scripts/app/views/shared/shareModal.js",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/TitlebarModel.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Routers/ProjectSection.js",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/AppInit/ProjectSectionInit.js",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views/Dialogs/Dialog.ts",
+		"/Volumes/C/Projects/basestrap/src/custom/less/modals.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/toolbar.less",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views/Dialogs/FilePreviewDialog.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Views/Projects/Project.cshtml",
+		"/Users/dtran1/Desktop/TestServer/site/index.html",
+		"/Users/dtran1/Desktop/TestServer/package.json",
+		"/Volumes/C/Projects/basestrap/src/custom/less/project.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/core.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/tables.less",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Views/Shared/_Layout40.cshtml",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/public/pdfviewer/pdfviewer.html",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/public/pdfviewer/web/locale/locale.html",
+		"/Volumes/C/Projects/basestrap/src/custom/less/panels.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/nav.less",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/File.ts",
+		"/Volumes/C/Projects/basestrap/src/bootstrap/less/responsive-utilities.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/illumicons.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/input.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/master.less",
+		"/Volumes/C/Projects/basestrap/src/bootstrap/less/tables.less",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/Toolbar.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models/Analysis.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views/Pages/ProjectAnalysesPage.ts",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Routers/ProjectSection.ts",
+		"/Volumes/C/Projects/basestrap/src/custom/less/search.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/colors.less",
+		"/Volumes/C/Projects/basestrap/src/custom/less/tooltip.less",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/C/Projects/basestrap/src/bootstrap/less/mixins.less",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Tools/TypeScriptBundle/tsc-bundle.bat",
+		"/Volumes/C/Projects/basestrap/src/custom/less/variables.less",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Views/Shared/_Layout20.cshtml",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Volumes/C/Projects/basespace.sublime-project",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Views/Shared/_Header20.cshtml",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/css/basestrap.css",
+		"/Users/dtran1/Dropbox/Tools/basestrap-compile.sh",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/LESS-basestrap-Dang/LESS-basestrap-Dang.sublime-build",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/LESS-basestrap/LESS-basestrap.sublime-build",
+		"/Volumes/C/Projects/basestrap/build/build.bat",
+		"/Volumes/C/Projects/basestrap/build/build.sh",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Packages/Default/Preferences (OSX).sublime-settings",
+		"/Users/dtran1/Library/Application Support/Sublime Text 2/Installed Packages/Package Control.sublime-package",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Tools/cssrefresh.js",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Controllers/ProjectsController.cs",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Controllers/TemplatesController.cs",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/Controllers/HomeController.cs",
+		"/Volumes/C/Projects/basespace/src/Cloud.Web/LayoutController.generated.cs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS",
+			"/Volumes/C/Projects/basestrap/src/custom/less",
+			"/Volumes/C/Projects/",
+			"/Volumes/C/Projects/basestrap/src/bootstrap/less",
+			"/Volumes/C/Projects/basestrap/src/bootstrap",
+			"/Volumes/C/Projects/basestrap/src/custom/less",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Models",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Global",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Events",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Collections",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Routers",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS/Views",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS",
+			"/Volumes/C/Projects/basestrap/src/custom/less",
+			"/Volumes/C/Projects/basestrap/src/bootstrap/less",
+			"/Volumes/C/Projects/basestrap/src/custom/less",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web",
+			"/Volumes/C/Projects/basestrap/src/custom/less",
+			"/Volumes/C/Projects/basestrap/src/bootstrap/less",
+			"/Volumes/C/Projects/basestrap/src/bootstrap",
+			"/Volumes/C/Projects/basestrap/src/bootstrap/less",
+			"/Volumes/C/Projects/basestrap/src/custom/less",
+			"/Volumes/C/Projects/basestrap/src/bootstrap/less",
+			"/Volumes/C/Projects/basespace/src/Cloud.Web/ScriptsTS",
+			"/Volumes/C/Projects/basespace"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"baseSpaceApp",
+			"BaseSpaceApp",
+			"baseSpaceApp",
+			"BaseSpaceApp",
+			"baseSpaceApp",
+			"on",
+			"regions",
+			"application",
+			"isFormValid",
+			"overflow",
+			"hideCancelConfirmation",
+			"cancelConfirmBtnNo",
+			"cancelConfirmationHide",
+			"cancelConfirmationShow",
+			"cancelConfirmationDialog",
+			"collaboratorsHasChanged",
+			"hasCollaboratorsChanged",
+			"personalMessage",
+			"PersonalMessage",
+			"personalMessage",
+			"alertPersonalMessage",
+			"validEmail",
+			"inviteUser",
+			"new Project(",
+			"projectId",
+			"inviteUser",
+			"TitlebarModel",
+			"web_base_uri",
+			"invite-btn",
+			"current-permission-level",
+			"&",
+			"shareprojectdi",
+			"toolbar",
+			"box-shadow",
+			"jquery-1.10.2.min.map",
+			"You don't seem to have a PDF reader installed",
+			"abc.pdf",
+			"top: 96px;",
+			"400px",
+			"viewport",
+			"port",
+			"responsiveTabletWidthMin",
+			"blueDarker",
+			"darkerblue",
+			"}\n",
+			"blue",
+			"Blue",
+			"darkBlue",
+			"darkerBlue",
+			"box-shadow",
+			"files",
+			"Files",
+			"files",
+			"Files",
+			"Files, function(file)",
+			"_.each(Files, function(file)",
+			"x",
+			"images/",
+			"new",
+			"background-image",
+			"background",
+			"bs-checkbox-header",
+			"checkbox",
+			"<div class=\\'jquery-loading-message\\'>",
+			"this.hide",
+			"<div class=\\'jquery-loading-message\\'>",
+			"about-section",
+			".css(",
+			"iframe",
+			"result",
+			"position: fixed;\n	top: 0px;\n	z-index: 1;",
+			"0;",
+			"width: 120px;",
+			"style=\"",
+			"checkbox-img",
+			"bs-table",
+			".select",
+			"19",
+			"Analyses",
+			"analyses",
+			"Analyses",
+			"analyses",
+			"Analyses",
+			"analyses",
+			"0;",
+			"bs-toolbar",
+			"images",
+			"bs-nav-side",
+			"95",
+			"blueLighter",
+			".bs-nav-side",
+			"bs-nav-side",
+			"top: 141px;",
+			"padding-top: 14px;",
+			"top: 55px;",
+			"//@",
+			"@m",
+			"65",
+			"layout40",
+			"z-index",
+			"blueDark",
+			"3FA9F5",
+			"blue",
+			"medium",
+			"asset.axd",
+			"radius",
+			"10",
+			"radius",
+			"border-radius",
+			"border-radius(",
+			"border-radius",
+			"round",
+			"asset.axd",
+			"placeholder",
+			"isIe",
+			"placeholder",
+			"&",
+			"linear",
+			"vertical",
+			".vertical",
+			"gradient",
+			"15",
+			"bs-nav-secondary",
+			"min-width",
+			"100px",
+			"10",
+			"width: 75px;",
+			"6"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "site/index.html",
+					"settings":
+					{
+						"buffer_size": 1790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								540,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site/scripts/myapp.ts",
+					"settings":
+					{
+						"buffer_size": 829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "site/scripts/projectcontroller.ts",
+					"settings":
+					{
+						"buffer_size": 1198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "site/scripts/layouts/projectlayout.ts",
+					"settings":
+					{
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "site/scripts/layouts/aboutlayout.ts",
+					"settings":
+					{
+						"buffer_size": 632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "site/scripts/layouts/masterlayout.ts",
+					"settings":
+					{
+						"buffer_size": 998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 107.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"marion",
+				"scripts/lib/marionette/marionette.d.ts"
+			],
+			[
+				"user.ts",
+				"ScriptsTS/Models/User.ts"
+			],
+			[
+				"model",
+				"ScriptsTS/Models/Model.ts"
+			],
+			[
+				"collaborator.ts",
+				"ScriptsTS/Models/Collaborator.ts"
+			],
+			[
+				"dialogshareprojectco",
+				"ScriptsTS/Views/Dialogs/DialogShareProjectCollaboratorItem.ts"
+			],
+			[
+				"dialogsharep",
+				"ScriptsTS/Views/Dialogs/DialogShareProject.ts"
+			],
+			[
+				"usercollection",
+				"ScriptsTS/Collections/UserCollection.ts"
+			],
+			[
+				"collection.ts",
+				"ScriptsTS/Collections/Collection.ts"
+			],
+			[
+				"collection",
+				"ScriptsTS/Collections/FileCollection.ts"
+			],
+			[
+				"colelction",
+				"ScriptsTS/Collections/SampleCollection.ts"
+			],
+			[
+				"project",
+				"Cloud.Web/ScriptsTS/Models/Project.ts"
+			],
+			[
+				"project.ts",
+				"ScriptsTS/Models/Project.ts"
+			],
+			[
+				"edit",
+				"Cloud.Web/ScriptsTS/Views/Dialogs/EditProjectDialog.ts"
+			],
+			[
+				"collections/collection",
+				"ScriptsTS/Collections/Collection.ts"
+			],
+			[
+				"model.ts",
+				"Cloud.Web/ScriptsTS/Models/Model.ts"
+			],
+			[
+				"shareprojectmodel",
+				"ScriptsTS/Models/ShareProjectCollaboratorModel.ts"
+			],
+			[
+				"shareprojec",
+				"ScriptsTS/Collections/ShareProjectCollection.ts"
+			],
+			[
+				"shareproject",
+				"ScriptsTS/Collections/ShareProjectCollaboratorCollection.ts"
+			],
+			[
+				"collabo",
+				"Cloud.Web/Scripts/app/collaborator.js"
+			],
+			[
+				"sharemodal.js",
+				"Cloud.Web/Scripts/app/views/shared/shareModal.js"
+			],
+			[
+				"share",
+				"ScriptsTS/Models/ShareProjectModel.ts"
+			],
+			[
+				"sharep",
+				"ScriptsTS/Collections/ShareProjectCollection.ts"
+			],
+			[
+				"projectinit",
+				"ScriptsTS/AppInit/ProjectSectionInit.ts"
+			],
+			[
+				"appinit",
+				"ScriptsTS/AppInit/ProjectSectionInit.js"
+			],
+			[
+				"dialog",
+				"ScriptsTS/Views/Dialogs/Dialog.ts"
+			],
+			[
+				"collections",
+				"ScriptsTS/Collections/Collection.ts"
+			],
+			[
+				"cloud.webprojectcshtml",
+				"Cloud.Web/Views/Projects/Project.cshtml"
+			],
+			[
+				"_layout",
+				"Cloud.Web/Views/Shared/_Layout40.cshtml"
+			],
+			[
+				"projectcshtml",
+				"Cloud.Web/Views/Projects/Project.cshtml"
+			],
+			[
+				"layout40",
+				"Cloud.Web/Views/Shared/_Layout40.cshtml"
+			],
+			[
+				"viewsproject.cs",
+				"Cloud.Web/Views/Projects/Project.cshtml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}
