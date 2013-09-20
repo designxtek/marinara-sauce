@@ -30,7 +30,7 @@ module bs.layouts {
 			var item = new Backbone.Model();
 			item.set("title", "about");
 
-			var aboutLayout= new bs.layouts.AboutLayout({ model: item});
+			var aboutLayout = new bs.layouts.AboutLayout({ model: item });
 			this.regions.projectContainer.show(aboutLayout);
 
 			console.log('about page rendered');
@@ -41,7 +41,7 @@ module bs.layouts {
 			var item = new Backbone.Model();
 			item.set("title", "analysis");
 
-			var analysisLayout = new bs.layouts.AnalysisLayout({ model: item});
+			var analysisLayout = new bs.layouts.AnalysisLayout({ model: item });
 			this.regions.projectContainer.show(analysisLayout);
 
 			console.log('analysis page rendered');
