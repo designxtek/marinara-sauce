@@ -12,6 +12,9 @@ module bs.layouts {
 		regions: any;
 
 		constructor(options: any) {
+
+			super(options);
+
 			options.template = "#project-template";
 
 			var regionManager = new Marionette.RegionManager();
@@ -22,8 +25,6 @@ module bs.layouts {
 	        this.on("show", function(view){
 	        	console.log('project layout rendered');
 	        });
-
-			super(options);
 		}
 
 		showAbout() {

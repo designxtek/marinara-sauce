@@ -39,7 +39,7 @@
 			"file": "site/scripts/myapp.ts",
 			"settings":
 			{
-				"buffer_size": 836,
+				"buffer_size": 809,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "site/scripts/projectcontroller.ts",
 			"settings":
 			{
-				"buffer_size": 1198,
+				"buffer_size": 1266,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "site/scripts/layouts/projectlayout.ts",
 			"settings":
 			{
-				"buffer_size": 1029,
+				"buffer_size": 1030,
 				"line_ending": "Unix"
 			}
 		},
@@ -440,15 +440,15 @@
 					"file": "site/scripts/myapp.ts",
 					"settings":
 					{
-						"buffer_size": 836,
+						"buffer_size": 809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								758,
+								758
 							]
 						],
 						"settings":
@@ -465,7 +465,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -473,15 +473,15 @@
 					"file": "site/scripts/projectcontroller.ts",
 					"settings":
 					{
-						"buffer_size": 1198,
+						"buffer_size": 1266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								467,
+								467
 							]
 						],
 						"settings":
@@ -500,15 +500,15 @@
 					"file": "site/scripts/layouts/projectlayout.ts",
 					"settings":
 					{
-						"buffer_size": 1029,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								138,
+								131
 							]
 						],
 						"settings":

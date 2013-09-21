@@ -42,6 +42,8 @@ var bs;
         var ProjectLayout = (function (_super) {
             __extends(ProjectLayout, _super);
             function ProjectLayout(options) {
+                _super.call(this, options);
+
                 options.template = "#project-template";
 
                 var regionManager = new Marionette.RegionManager();
@@ -52,8 +54,6 @@ var bs;
                 this.on("show", function (view) {
                     console.log('project layout rendered');
                 });
-
-                _super.call(this, options);
             }
             ProjectLayout.prototype.showAbout = function () {
                 var item = new Backbone.Model();
@@ -251,31 +251,34 @@ var bs;
     /// <reference path="layouts/aboutlayout.ts" />
     /// <reference path="layouts/analysislayout.ts" />
     (function (project) {
-        project.projectController = {
-            aboutPage: function () {
-                var projectView = bs.layouts.masterLayout.regions.main.currentView;
-                projectView.showAbout();
-            },
-            analysisPage: function (page) {
-                console.log('analysis page ' + page);
-                var projectView = bs.layouts.masterLayout.regions.main.currentView;
-                projectView.showAnalysis();
-            },
-            start: function () {
+        var ProjectController = (function () {
+            function ProjectController() {
                 // grab container id and render the master layout on it
                 var regionManager = new Marionette.RegionManager();
                 var regions = regionManager.addRegions({
                     container: "#container"
                 });
 
-                bs.layouts.masterLayout = new bs.layouts.MasterLayout({});
-                regions.container.show(bs.layouts.masterLayout);
+                this.masterLayout = new bs.layouts.MasterLayout({});
+                regions.container.show(this.masterLayout);
 
                 // render the projects section inside the master layout's main section
-                var projectLayout = new bs.layouts.ProjectLayout({});
-                bs.layouts.masterLayout.regions.main.show(projectLayout);
+                this.layout = new bs.layouts.ProjectLayout({});
+                this.masterLayout.regions.main.show(this.layout);
             }
-        };
+            ProjectController.prototype.aboutPage = function () {
+                var projectView = this.masterLayout.regions.main.currentView;
+                projectView.showAbout();
+            };
+
+            ProjectController.prototype.analysisPage = function (page) {
+                console.log('analysis page ' + page);
+                var projectView = this.masterLayout.regions.main.currentView;
+                projectView.showAnalysis();
+            };
+            return ProjectController;
+        })();
+        project.ProjectController = ProjectController;
     })(bs.project || (bs.project = {}));
     var project = bs.project;
 })(bs || (bs = {}));
@@ -306,8 +309,9 @@ bs.myApp = new bs.MyApp();
 
 bs.myApp.addInitializer(function () {
     // Create a new router using a controller
-    var appRouter = new bs.routers.ProjectRouter({ controller: bs.project.projectController });
-    bs.project.projectController.start();
+    var appRouter = new bs.routers.ProjectRouter({
+        controller: new bs.project.ProjectController()
+    });
 
     Backbone.history.start();
 });

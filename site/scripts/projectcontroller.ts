@@ -13,33 +13,37 @@ This is a js object with a list of function for the router to call.
 
 module bs.project {
 
-	export var projectController = {
+	export class ProjectController {
 
-		aboutPage: function() {
-			var projectView = bs.layouts.masterLayout.regions.main.currentView;
-			projectView.showAbout();
-		},
+		masterLayout: bs.layouts.MasterLayout;
+		layout: bs.layouts.ProjectLayout;
 
-		analysisPage: function(page) {
-			console.log('analysis page ' + page);
-			var projectView = bs.layouts.masterLayout.regions.main.currentView;
-			projectView.showAnalysis();
-		},
-
-		start: function() {
-
+		constructor() {
+			
 			// grab container id and render the master layout on it
 	        var regionManager = new Marionette.RegionManager();
 	        var regions = regionManager.addRegions({
 	        	container: "#container"
 	        });
 
-	        bs.layouts.masterLayout = new bs.layouts.MasterLayout({});
-			regions.container.show(bs.layouts.masterLayout);
+	        this.masterLayout = new bs.layouts.MasterLayout({});
+			regions.container.show(this.masterLayout);
 
 			// render the projects section inside the master layout's main section
-			var projectLayout = new bs.layouts.ProjectLayout({});
-			bs.layouts.masterLayout.regions.main.show(projectLayout);
+			this.layout = new bs.layouts.ProjectLayout({});
+			this.masterLayout.regions.main.show(this.layout);
+
+		}
+
+		aboutPage() {
+			var projectView = this.masterLayout.regions.main.currentView;
+			projectView.showAbout();
+		}
+
+		analysisPage(page: any) {
+			console.log('analysis page ' + page);
+			var projectView = this.masterLayout.regions.main.currentView;
+			projectView.showAnalysis();
 		}
 	}
 }

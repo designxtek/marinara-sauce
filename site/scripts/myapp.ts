@@ -26,8 +26,9 @@ bs.myApp = new bs.MyApp();
 bs.myApp.addInitializer(function(){
 
 	// Create a new router using a controller
-	var appRouter = new bs.routers.ProjectRouter({controller: bs.project.projectController});
-	bs.project.projectController.start();
+	var appRouter = new bs.routers.ProjectRouter({
+		controller: new bs.project.ProjectController() 
+	});
 
 	Backbone.history.start();
 });
